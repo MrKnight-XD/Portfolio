@@ -36,8 +36,7 @@ export default function Portfolio() {
             Featured Projects
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A selection of my recent work across different services and
-            platforms.
+            A selection of projects I've created across design, Minecraft servers, Discord communities, and web development.
           </p>
         </div>
 
@@ -105,13 +104,25 @@ export default function Portfolio() {
                 </div>
 
                 {/* Link */}
-                <button className="flex items-center gap-2 text-primary-light text-sm font-medium hover:text-white transition-colors group/link">
-                  View Project
-                  <ExternalLink
-                    size={14}
-                    className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"
-                  />
-                </button>
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-primary-light text-sm font-medium hover:text-white transition-colors group/link"
+                  >
+                    View Project
+                    <ExternalLink
+                      size={14}
+                      className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform"
+                    />
+                  </a>
+                ) : (
+                  <span className="flex items-center gap-2 text-gray-500 text-sm font-medium">
+                    View Project
+                    <ExternalLink size={14} />
+                  </span>
+                )}
               </div>
             </div>
           ))}

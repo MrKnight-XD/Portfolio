@@ -34,13 +34,13 @@ export default function About() {
               </h3>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  I'm <span className="text-primary-light font-medium">MrKnightXD</span> — a digital creator specializing in graphic design, Minecraft server development, and Discord community building. I've spent years honing my craft to deliver professional, high-quality solutions.
+                  I'm <span className="text-primary-light font-medium">MrKnight_XD</span> — a digital creator specializing in thumbnail design, Minecraft server setup, and Discord community building. I focus on delivering practical, high-quality solutions that actually work for your needs.
                 </p>
                 <p>
-                  My approach is simple: understand the client's vision, execute with precision, and deliver beyond expectations. Every project I take on gets my full attention and commitment to quality.
+                  My approach is simple: understand what you need, get it done right, and make sure you're happy with the result. Every project gets my full attention and commitment to quality.
                 </p>
                 <p>
-                  Whether it's designing an eye-catching thumbnail that stops scrollers in their tracks, building a Minecraft server that handles hundreds of players, or setting up a Discord community from scratch — I bring the same level of dedication and expertise.
+                  Whether it's designing an eye-catching thumbnail, setting up your Minecraft server with the right plugins, or building a Discord community from scratch — I bring the same level of dedication to every project.
                 </p>
               </div>
 
@@ -94,16 +94,11 @@ export default function About() {
               </h4>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "Photoshop",
-                  "After Effects",
                   "Java",
                   "Paper/Spigot",
-                  "Discord.js",
-                  "MySQL",
-                  "React",
-                  "Tailwind CSS",
-                  "Linux",
-                  "Git",
+                  "Graphic Design",
+                  "Server Configuration",
+                  "Discord Bots",
                 ].map((tool) => (
                   <span
                     key={tool}

@@ -11,21 +11,22 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "1",
-    title: "Gaming YouTube Channel Thumbnails",
-    category: "thumbnails",
+    title: "Portfolio Website",
+    category: "websites",
     description:
-      "Custom thumbnail designs for a gaming YouTube channel, optimized for high CTR and visual impact.",
-    technologies: ["Photoshop", "After Effects", "Typography"],
-    image: "thumbnails",
+      "A modern, responsive portfolio website built with clean design and smooth animations.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    image: "websites",
+    link: "https://mrknightxd-portfolio.netlify.app/",
   },
   {
     id: "2",
-    title: "Survival Network Server",
-    category: "minecraft",
+    title: "Content Creator Thumbnails",
+    category: "thumbnails",
     description:
-      "Full Minecraft survival network with custom plugins, economy system, and optimized performance for 500+ players.",
-    technologies: ["Paper", "Java", "MySQL", "Redis"],
-    image: "minecraft",
+      "Custom thumbnail designs for content creators, optimized for engagement and visual impact.",
+    technologies: ["Graphic Design", "Typography", "Composition"],
+    image: "thumbnails",
   },
   {
     id: "3",
@@ -33,53 +34,17 @@ export const projects: Project[] = [
     category: "discord",
     description:
       "Complete Discord server setup for a gaming community with custom bots, verification system, and role management.",
-    technologies: ["Discord.js", "Bot Setup", "Permissions"],
+    technologies: ["Server Setup", "Bot Configuration", "Permissions"],
     image: "discord",
   },
   {
     id: "4",
-    title: "SkyBlock Server",
-    category: "minecraft",
-    description:
-      "Custom SkyBlock server with unique island generation, challenges, and a fully integrated economy.",
-    technologies: ["Spigot", "Custom Plugins", "MySQL"],
-    image: "minecraft",
-  },
-  {
-    id: "5",
-    title: "Content Creator Thumbnails",
-    category: "thumbnails",
-    description:
-      "Series of thumbnails for a tech review channel with clean, modern designs and bold typography.",
-    technologies: ["Photoshop", "Color Theory", "Composition"],
-    image: "thumbnails",
-  },
-  {
-    id: "6",
-    title: "Esports Discord Hub",
+    title: "Discord Servers",
     category: "discord",
     description:
-      "Professional Discord server for an esports organization with tournament management and team coordination.",
-    technologies: ["Custom Bots", "Webhooks", "Automation"],
+      "Multiple Discord server projects with custom structures, automation, and community features.",
+    technologies: ["Server Management", "Automation", "Customization"],
     image: "discord",
-  },
-  {
-    id: "7",
-    title: "Portfolio Website",
-    category: "websites",
-    description:
-      "Modern, responsive portfolio website with smooth animations and clean design.",
-    technologies: ["React", "Tailwind CSS", "TypeScript"],
-    image: "websites",
-  },
-  {
-    id: "8",
-    title: "Minigames Server",
-    category: "minecraft",
-    description:
-      "Multi-game Minecraft server featuring BedWars, SkyWars, and custom minigames with optimized performance.",
-    technologies: ["Paper", "BungeeCord", "Custom Plugins"],
-    image: "minecraft",
   },
 ];
 

@@ -28,13 +28,13 @@ export const services: Service[] = [
     icon: "server",
     title: "Minecraft Server Development",
     description:
-      "Complete Minecraft server solutions — from initial setup to advanced plugin configuration and performance optimization.",
+      "Get your Minecraft server up and running smoothly. From basic setup to plugin configuration and performance tweaks — I'll help you build a great server experience.",
     features: [
       "Server setup & configuration",
-      "Plugin configuration",
-      "Performance optimization",
-      "Troubleshooting & debugging",
-      "Custom server systems",
+      "Plugin installation & setup",
+      "Server optimization",
+      "Basic troubleshooting",
+      "Gameplay & server customization",
     ],
     cta: "Hire Me",
   },

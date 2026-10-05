@@ -61,11 +61,13 @@ export default function Navbar() {
             className="flex items-center gap-2 group"
             aria-label="Go to homepage"
           >
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center font-bold text-white text-sm">
-              MK
-            </div>
+            <img
+              src="https://kommodo.ai/i/BeZlN5iu49gZZKpgmg0D"
+              alt="MrKnight_XD Logo"
+              className="w-9 h-9 rounded-lg object-cover"
+            />
             <span className="text-white font-semibold text-lg hidden sm:block group-hover:text-primary-light transition-colors">
-              MrKnightXD
+              MrKnight_XD
             </span>
           </button>
 
